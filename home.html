@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World clock</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><p>Timezone viewer</p></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1 class="text-primary" >Select your timeZone</h1>
+    <div class="dropdown">
+    <select  id="allzone">
+    </select>
+
+    </div>
+  </header>
+  <div class="worldclock">
+    <p>The time in selected timezone is</p>
+    <h2 id="currentTime"> </h2>
+    <div class="marquee">
+    <h1 id="currentDate"></h1>
+    </div>
+  </div>
+</body>
+</html>
